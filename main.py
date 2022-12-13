@@ -106,7 +106,3 @@ def main():
     port = 5000
 
     uvicorn.run("main:app", host=host, port=port, server_header=False)
-
-
-if __name__ == "__main__":
-    main()
