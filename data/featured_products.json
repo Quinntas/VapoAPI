@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "code": "2066857246402",
+        "name": "Nasty Hight Mint - Slow Blow - 3mg 60ml",
+        "description": "Slow Blow é um mix refrescante da Nasty, a combinação conta com o sabor suculento e adocicado do abacaxi com o refresco de limão e para completar com chave de ouro O toque gelado que só a nasty tem!",
+        "slug": "Nasty Hight Mint - Slow Blow - 3mg 60ml",
+        "quantity": 0,
+        "category": {
+            "id": 11,
+            "name": "Freebase",
+            "sub_category_id": 22,
+            "sub_category_name": "3mg"
+        },
+        "price": 125,
+        "sale_price": 120,
+        "image": "https://app.tagplus.com.br/xkg53r05/files/images/produtos/1/d497ce681bc31f859b7625024d3ff47f.png",
+        "gallery": [
+            "https://app.tagplus.com.br/xkg53r05/files/images/produtos/1/d6e1649452701e5c447f2dd308280789.jpg"
+        ],
+        "created_on": "2022-01-06 11:53:35"
+    },
+    {
+        "id": 2,
+        "code": "2052060663709",
+        "name": "BLVK - Uniapple - 3mg 60ml",
+        "description": "",
+        "slug": "BLVK - Uniapple - 3mg 60ml",
+        "quantity": 0,
+        "category": {
+            "id": 11,
+            "name": "Freebase",
+            "sub_category_id": 22,
+            "sub_category_name": "3mg"
+        },
+        "price": 100,
+        "sale_price": 100,
+        "image": "https://app.tagplus.com.br/xkg53r05/files/images/produtos/2/b24985c99a0e9a39af15cd5b2edc70e8.jpg",
+        "gallery": [],
+        "created_on": "2022-01-06 13:14:16"
+    },
+    {
+        "id": 3,
+        "code": "2058851840007",
+        "name": "BLVK - Unichew - 3mg 60ml",
+        "description": "",
+        "slug": "BLVK - Unichew - 3mg 60ml",
+        "quantity": 0,
+        "category": {
+            "id": 11,
+            "name": "Freebase",
+            "sub_category_id": 22,
+            "sub_category_name": "3mg"
+        },
+        "price": 100,
+        "sale_price": 110,
+        "image": "https://app.tagplus.com.br/xkg53r05/files/images/produtos/3/584349aa7a415d99232b55132a2c05c7.jpg",
+        "gallery": [],
+        "created_on": "2022-01-06 13:16:31"
+    },
+    {
+        "id": 4,
+        "code": "2093223371048",
+        "name": "BLVK Fusion - Lemon Tangerine Ice - 3mg 60ml",
+        "description": "",
+        "slug": "BLVK Fusion - Lemon Tangerine Ice - 3mg 60ml",
+        "quantity": 0,
+        "category": {
+            "id": 11,
+            "name": "Freebase",
+            "sub_category_id": 22,
+            "sub_category_name": "3mg"
+        },
+        "price": 100,
+        "sale_price": 100,
+        "image": "https://app.tagplus.com.br/xkg53r05/files/images/produtos/4/b2244b82fc6248ba8c47fc6c40fe588a.jpg",
+        "gallery": [],
+        "created_on": "2022-01-06 13:16:58"
+    },
+    {
+        "id": 5,
+        "code": "2061708549909",
+        "name": "BLVK Pink - Iced Berry Banana",
+        "description": "",
+        "slug": "BLVK Pink - Iced Berry Banana",
+        "quantity": 2,
+        "category": null,
+        "price": 110,
+        "sale_price": 110,
+        "image": "https://app.tagplus.com.br/xkg53r05/files/images/produtos/5/4f6ea8ab9936a2f53c734ee1d8dcec4c.jpg",
+        "gallery": [],
+        "created_on": "2022-01-06 13:17:38"
+    }
+]
