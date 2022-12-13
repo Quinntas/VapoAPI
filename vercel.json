@@ -9,6 +9,14 @@
   ],
   "routes": [
     {
+      "src": "/",
+      "dest": "main.py"
+    },
+    {
+      "src": "/",
+      "dest": "src/python/routers/v1/store.py"
+    },
+    {
       "src": "/api/v1/store/procuts",
       "dest": "src/python/routers/v1/store.py"
     }
