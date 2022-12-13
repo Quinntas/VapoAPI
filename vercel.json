@@ -14,7 +14,7 @@
     },
     {
       "src": "/api/v1/store/(.*)",
-      "dest": "/src/python/routers/v1/store.py"
+      "dest": "src/python/routers/v1/store.py"
     }
   ]
 }
