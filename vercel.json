@@ -9,11 +9,11 @@
   ],
   "routes": [
     {
-      "src": "(.*)",
+      "src": "/",
       "dest": "main.py"
     },
     {
-      "src": "(.*)",
+      "src": "/store/api/v1/(.*)",
       "dest": "src/python/routers/v1/store.py"
     }
   ]
