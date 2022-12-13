@@ -13,7 +13,7 @@
       "dest": "main.py"
     },
     {
-      "src": "/(.*)",
+      "src": "/api/v1/store/(.*)",
       "dest": "/src/python/routers/v1/store.py"
     }
   ]
