@@ -1,4 +1,6 @@
 {
+  "version": 1,
+  "public": false,
   "builds": [
     {
       "src": "main.py",
@@ -7,8 +9,8 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "src/python/routers/v1/response.py"
+      "src": "/api/v1/store/procuts",
+      "dest": "src/python/routers/v1/store.py"
     }
   ]
 }
