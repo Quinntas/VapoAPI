@@ -7,14 +7,14 @@
       "use": "@vercel/python"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/",
-      "dest": "main.py"
+      "source": "(.*)",
+      "destination": "main.py"
     },
     {
-      "src": "/store/api/v1/(.*)",
-      "dest": "src/python/routers/v1/store.py"
+      "source": "/store/api/v1/(.*)",
+      "destination": "src/python/routers/v1/store.py"
     }
   ]
 }
