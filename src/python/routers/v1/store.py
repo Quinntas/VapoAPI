@@ -38,6 +38,12 @@ async def products():
         return json_response(json.load(file))
 
 
+@store.get("/featured")
+async def featured():
+    with open("data/products-vapo.json", "r") as file:
+        return json_response(json.load(file)[:5])
+
+
 @store.get("/categories")
 async def categories():
     with open("data/categories-vapo.json", "r") as file:
