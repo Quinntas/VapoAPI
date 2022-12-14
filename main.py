@@ -93,9 +93,22 @@ async def add_process_time(request: Request, call_next):
 
 app.add_middleware(SessionMiddleware, secret_key=SESSION_SECRET)
 
+if API_STATE == 'Development':
+    from src.python.routers.v1.store import store
+
+    app.include_router(
+        store,
+        prefix="/api/v1/store",
+        tags=["store"]
+    )
+
 
 def main():
     host = socket.gethostbyname(socket.gethostname())
     port = 5000
 
     uvicorn.run("main:app", host=host, port=port, server_header=False)
+
+
+if __name__ == "__main__" and API_STATE == 'Development':
+    main()
