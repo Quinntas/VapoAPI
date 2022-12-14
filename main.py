@@ -109,5 +109,5 @@ def main():
     uvicorn.run("main:app", host=host, port=port, server_header=False)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and API_STATE == 'Development':
     main()
