@@ -1,10 +1,9 @@
-import asyncio
 import json
+import subprocess
 import time
 
 from fastapi import APIRouter
 
-from src.python.api.refresh import run
 from src.python.services.response import json_response
 
 store = APIRouter()
@@ -25,8 +24,14 @@ async def refresh():
         refreshing = False
     if refreshing is False:
         refreshing = True
-        asyncio.create_task(run())
-    return json_response({"refreshing": refreshing})
+        subprocess.Popen("python src/python/api/refresh.py", stdout=subprocess.PIPE, shell=False)
+    return json_response(
+        {
+            "last_refresh": time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(last_refresh)),
+            "next_available_refresh": time.strftime('%Y-%m-%d %H:%M:%S',
+                                                    time.localtime(last_refresh + time.time() + 60 * 20))
+        }
+    )
 
 
 @store.get("/products")

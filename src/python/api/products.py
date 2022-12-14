@@ -7,14 +7,14 @@ import requests
 from decouple import config
 
 session = requests.session()
-ACCESS_TOKEN = config('SESSION_SECRET')
+ACCESS_TOKEN = config('ACCESS_TOKEN')
 REFRESH_TOKEN = config('REFRESH_TOKEN')
 CLIENT_SECRET = config('CLIENT_SECRET')
 CLIENT_ID = config('CLIENT_ID')
 data = []
 length = len(session.get(f"https://api.tagplus.com.br/produtos?access_token={ACCESS_TOKEN}").json())
 
-with open('src/python/api/categories-vapo.json', 'r', encoding='utf-8') as f:
+with open('data/categories-vapo.json', 'r', encoding='utf-8') as f:
     categories = json.load(f)
 
 

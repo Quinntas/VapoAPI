@@ -3,13 +3,13 @@ import json
 import requests
 from decouple import config
 
-ACCESS_TOKEN = config('SESSION_SECRET')
+ACCESS_TOKEN = config('ACCESS_TOKEN')
 
 url_categories = f'https://api.tagplus.com.br/categorias?access_token={ACCESS_TOKEN}'
 url_products = f'https://api.tagplus.com.br/produtos?access_token={ACCESS_TOKEN}&categoria='
 
 session = requests.session()
-data = session.get(url_categories).json()
+data = requests.get(url_categories).json()
 parsedData = []
 
 for item in data:
