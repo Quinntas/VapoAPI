@@ -27,7 +27,7 @@ async def refresh():
         {
             "last_refresh": time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(last_refresh)),
             "next_available_refresh": time.strftime('%Y-%m-%d %H:%M:%S',
-                                                    time.localtime(last_refresh + time.time() + 60 * 20))
+                                                    time.localtime(last_refresh + 60 * 20))
         }
     )
 
