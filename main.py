@@ -8,7 +8,6 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, FileResponse
 from starlette.middleware.sessions import SessionMiddleware
 
-from src.python.routers.v1.store import store
 from src.python.services.response import json_response
 
 SESSION_SECRET = config('SESSION_SECRET')
@@ -95,6 +94,8 @@ async def add_process_time(request: Request, call_next):
 app.add_middleware(SessionMiddleware, secret_key=SESSION_SECRET)
 
 if API_STATE == 'Development':
+    from src.python.routers.v1.store import store
+
     app.include_router(
         store,
         prefix="/api/v1/store",
