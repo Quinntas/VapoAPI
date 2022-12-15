@@ -24,7 +24,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=freebase",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=freebase"
     }
   },
   {
@@ -77,7 +77,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=nic salt",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=nic salt"
     }
   },
   {
@@ -89,7 +89,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=pods",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=pods"
     }
   },
   {
@@ -117,7 +117,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=acessórios",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=acessórios"
     }
   },
   {
@@ -129,7 +129,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=atomizadores",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=atomizadores"
     }
   },
   {
@@ -202,7 +202,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=pods descartáveis",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=pods descartáveis"
     }
   },
   {
@@ -214,7 +214,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=coils",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=coils"
     }
   },
   {
@@ -226,7 +226,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=cbd",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=cbd"
     }
   },
   {
@@ -294,7 +294,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=tabacaria",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=tabacaria"
     }
   },
   {
@@ -306,7 +306,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=tabaco",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=tabaco"
     }
   },
   {
@@ -329,7 +329,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=vapes",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=vapes"
     }
   },
   {
@@ -357,7 +357,7 @@
     "icon": "",
     "image": {
       "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=narguile",
-      "original": ""
+      "original": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=narguile"
     }
   }
 ]
