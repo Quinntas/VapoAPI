@@ -43,5 +43,5 @@ for item in data:
                 )
                 continue
 
-with open('data/categories-vapo.json', 'w', encoding='utf-8') as f:
+with open('public/categories-vapo.json', 'w', encoding='utf-8') as f:
     f.write(json.dumps(parsedData, ensure_ascii=False))
