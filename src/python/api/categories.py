@@ -25,7 +25,7 @@ for item in data:
                 "icon": '',
                 'image': {
                     'thumbnail': f'{BASE_URL}/api/v1/store/categories/images?slug={item["descricao"].lower()}',
-                    'original': ''
+                    'original': f'{BASE_URL}/api/v1/store/categories/images?slug={item["descricao"].lower()}'
                 }
             }
         )
