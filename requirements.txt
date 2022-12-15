@@ -1,6 +1,4 @@
 requests
 python-decouple
-uvicorn
 fastapi
-fastapi-sessions
 starlette

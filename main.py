@@ -6,12 +6,10 @@ from decouple import config
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse, FileResponse
-from starlette.middleware.sessions import SessionMiddleware
 
 from src.python.routers.v1.store import store
 from src.python.services.response import json_response
 
-SESSION_SECRET = config('SESSION_SECRET')
 API_STATE = config("API_STATE")
 
 app = FastAPI(
@@ -91,8 +89,6 @@ async def add_process_time(request: Request, call_next):
     response.headers["X-Process-Time"] = str(process_time)
     return response
 
-
-app.add_middleware(SessionMiddleware, secret_key=SESSION_SECRET)
 
 app.include_router(
     store,
