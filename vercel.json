@@ -9,10 +9,6 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "main.py"
-    },
-    {
       "source": "/api/v1/store/(.*)",
       "destination": "src/python/routers/v1/store.py"
     }
