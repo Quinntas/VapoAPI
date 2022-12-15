@@ -40,7 +40,7 @@ async def about():
 
 @app.get('/favicon.ico', include_in_schema=False)
 async def favicon():
-    return FileResponse('public/icon.ico')
+    return FileResponse('static/icon.ico')
 
 
 @app.exception_handler(404)

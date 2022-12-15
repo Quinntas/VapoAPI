@@ -14,7 +14,7 @@ CLIENT_ID = config('CLIENT_ID')
 data = []
 length = len(session.get(f"https://api.tagplus.com.br/produtos?access_token={ACCESS_TOKEN}").json())
 
-with open('public/categories-vapo.json', 'r', encoding='utf-8') as f:
+with open('static/categories-vapo.json', 'r', encoding='utf-8') as f:
     categories = json.load(f)
 
 
@@ -76,5 +76,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-    with open('public/products-vapo.json', 'w', encoding='utf-8') as f:
+    with open('static/products-vapo.json', 'w', encoding='utf-8') as f:
         f.write(json.dumps(data, ensure_ascii=False))

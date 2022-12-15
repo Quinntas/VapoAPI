@@ -40,24 +40,24 @@ async def refresh():
 
 @store.get("/products")
 async def products():
-    with open("public/products-vapo.json", "r") as file:
+    with open("static/products-vapo.json", "r") as file:
         return json_response(json.load(file))
 
 
 @store.get("/featured")
 async def featured():
-    with open("public/products-vapo.json", "r") as file:
+    with open("static/products-vapo.json", "r") as file:
         return json_response(json.load(file)[:5])
 
 
 @store.get("/categories")
 async def categories():
-    with open("public/categories-vapo.json", "r") as file:
+    with open("static/categories-vapo.json", "r") as file:
         return json_response(json.load(file))
 
 
 @store.get("/categories/images")
 async def categories_images(slug: str):
-    if os.path.exists(f'public/images/categories/{slug}.jpg'):
-        return FileResponse(f"public/images/categories/{slug}.jpg")
+    if os.path.exists(f'static/images/categories/{slug}.jpg'):
+        return FileResponse(f"static/images/categories/{slug}.jpg")
     return HTTPException(404)
