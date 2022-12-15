@@ -4,8 +4,13 @@
   "builds": [
     {
       "src": "main.py",
-      "use": "@run/python"
+      "use": "@vercel/python"
     }
+  ],
+  "regions": [
+    "gru1",
+    "sfo1",
+    "iad1"
   ],
   "rewrites": [
     {
