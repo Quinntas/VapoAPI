@@ -4,6 +4,7 @@ import requests
 from decouple import config
 
 ACCESS_TOKEN = config('ACCESS_TOKEN')
+BASE_URL = config('BASE_URL')
 
 url_categories = f'https://api.tagplus.com.br/categorias?access_token={ACCESS_TOKEN}'
 url_products = f'https://api.tagplus.com.br/produtos?access_token={ACCESS_TOKEN}&categoria='
@@ -23,7 +24,7 @@ for item in data:
                 'children': [],
                 "icon": '',
                 'image': {
-                    'thumbnail': '',
+                    'thumbnail': f'{BASE_URL}/api/v1/store/categories/images?slug={item["descricao"].lower()}',
                     'original': ''
                 }
             }

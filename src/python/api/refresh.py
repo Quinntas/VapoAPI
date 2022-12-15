@@ -18,8 +18,6 @@ def refresh_token():
                                 'client_secret': CLIENT_SECRET,
                                 'client_id': CLIENT_ID
                             })
-        print(res.json())
-        print(res.status_code)
         if res.status_code in range(1, 299):
             res = res.json()
             os.environ['REFRESH_TOKEN'] = res['refresh_token']

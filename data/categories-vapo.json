@@ -23,7 +23,7 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=freebase",
       "original": ""
     }
   },
@@ -76,7 +76,7 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=nic salt",
       "original": ""
     }
   },
@@ -88,7 +88,7 @@
     "children": [],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=pods",
       "original": ""
     }
   },
@@ -116,7 +116,7 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=acessórios",
       "original": ""
     }
   },
@@ -128,7 +128,7 @@
     "children": [],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=atomizadores",
       "original": ""
     }
   },
@@ -201,7 +201,7 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=pods descartáveis",
       "original": ""
     }
   },
@@ -213,7 +213,7 @@
     "children": [],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=coils",
       "original": ""
     }
   },
@@ -225,7 +225,7 @@
     "children": [],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=cbd",
       "original": ""
     }
   },
@@ -244,11 +244,6 @@
         "id": 49,
         "name": "Dichvadores",
         "slug": "Dichvadores"
-      },
-      {
-        "id": 50,
-        "name": "Tabaco",
-        "slug": "Tabaco"
       },
       {
         "id": 51,
@@ -298,7 +293,19 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=tabacaria",
+      "original": ""
+    }
+  },
+  {
+    "id": 50,
+    "name": "Tabaco",
+    "slug": "Tabaco",
+    "productCount": 16,
+    "children": [],
+    "icon": "",
+    "image": {
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=tabaco",
       "original": ""
     }
   },
@@ -321,7 +328,7 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=vapes",
       "original": ""
     }
   },
@@ -349,7 +356,7 @@
     ],
     "icon": "",
     "image": {
-      "thumbnail": "",
+      "thumbnail": "http://10.155.17.164:5000/api/v1/store/categories/images?slug=narguile",
       "original": ""
     }
   }
