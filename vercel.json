@@ -8,9 +8,7 @@
     }
   ],
   "regions": [
-    "gru1",
-    "sfo1",
-    "iad1"
+    "gru1"
   ],
   "rewrites": [
     {
