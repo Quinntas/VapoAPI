@@ -10,7 +10,7 @@ CLIENT_ID = config('CLIENT_ID')
 
 
 def refresh_token():
-    if requests.get(f"https://api.tagplus.com.br/produtos?access_token={ACCESS_TOKEN}").status_code == 401:
+    if requests.get(f"https://api.tagplus.com.br/produtos?access_token={ACCESS_TOKEN} ").status_code == 401:
         res = requests.post('https://api.tagplus.com.br/oauth2/token',
                             data={
                                 'grant_type': 'refresh_token',
