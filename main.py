@@ -1,7 +1,6 @@
 import socket
 import time
 
-import uvicorn
 from decouple import config
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
@@ -98,6 +97,8 @@ app.include_router(
 
 
 def main():
+    import uvicorn
+
     host = socket.gethostbyname(socket.gethostname())
     port = 5000
 
