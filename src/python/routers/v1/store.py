@@ -58,6 +58,6 @@ async def categories():
 
 @store.get("/categories/images")
 async def categories_images(slug: str):
-    if os.path.exists(f'data/images/categories/{slug}.png'):
-        return FileResponse(f"data/images/categories/{slug}.png")
+    if os.path.exists(f'data/images/categories/{slug}.jpg'):
+        return FileResponse(f"data/images/categories/{slug}.jpg")
     return HTTPException(404)
