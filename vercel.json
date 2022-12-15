@@ -16,10 +16,6 @@
       "destination": "main.py"
     },
     {
-      "source": "/(.*)",
-      "destination": "src/python/api/refresh.py"
-    },
-    {
       "source": "/api/v1/store/(.*)",
       "destination": "src/python/routers/v1/store.py"
     }
