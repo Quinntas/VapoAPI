@@ -366,7 +366,7 @@
     "name": "Like - Artic Winter - 3mg 30ml",
     "description": "Esse Juice é igualzinho um Halls preto, é o nosso sabor mais forte e gelado. O toque bem acentuado da menta faz dele uma verdadeira explosão de frescor.",
     "slug": "Like - Artic Winter - 3mg 30ml",
-    "quantity": 16,
+    "quantity": 15,
     "category": {
       "id": 11,
       "name": "Freebase",
@@ -387,7 +387,7 @@
     "name": "Like - Cherry Cooler - 3mg 30ml",
     "description": "A cereja que faltava para o seu vape. Além do sabor acentuado da fruta, você irá refrescar suas ideias com uma sensação bem gelada.",
     "slug": "Like - Cherry Cooler - 3mg 30ml",
-    "quantity": 8,
+    "quantity": 7,
     "category": {
       "id": 11,
       "name": "Freebase",
@@ -916,7 +916,7 @@
     "name": "BLVK Yellow Salt - Mango Strawberry Ice - 35mg 30ml",
     "description": "O E-liquid BLVK - Yellow Mango Strawberry Ice apresenta o novo sabor da série Yellow uma composição de manga suculenta e com morango, refrescante e gelada como você sempre quis, trazendo um sabor presente, fresco que você nunca provou. Além disso, o líquido BLVK - Yellow Mango Strawberry Ice, está em sua versão freebase, deixando tudo ainda mais completo enquanto você vaporiza. ",
     "slug": "BLVK Yellow Salt - Mango Strawberry Ice - 35mg 30ml",
-    "quantity": 5,
+    "quantity": 3,
     "category": {
       "id": 12,
       "name": "Nic Salt",
@@ -937,7 +937,7 @@
     "name": "BLVK Salt Plus - Grape Ice - 35mg 30m",
     "description": "Uvas geladas e docinhas! ",
     "slug": "BLVK Salt Plus - Grape Ice - 35mg 30m",
-    "quantity": 6,
+    "quantity": 11,
     "category": {
       "id": 12,
       "name": "Nic Salt",
@@ -958,7 +958,7 @@
     "name": "BLVK Salt Plus - Grape Ice - 50mg 30ml",
     "description": "Uvas geladas e docinhas! ",
     "slug": "BLVK Salt Plus - Grape Ice - 50mg 30ml",
-    "quantity": 0,
+    "quantity": 4,
     "category": {
       "id": 12,
       "name": "Nic Salt",
@@ -1667,7 +1667,7 @@
     "name": "Cabeça Luxe PM40",
     "description": "Cabeça de reposição do PM40!",
     "slug": "Cabeça Luxe PM40",
-    "quantity": 7,
+    "quantity": 6,
     "category": {
       "id": 15,
       "name": "Acessórios",
@@ -1686,7 +1686,7 @@
     "name": "Carregador Efest Slim K2",
     "description": "",
     "slug": "Carregador Efest Slim K2",
-    "quantity": 1,
+    "quantity": 2,
     "category": {
       "id": 15,
       "name": "Acessórios",
@@ -1837,7 +1837,7 @@
     "name": "Chilly Beats - Banana Ice 5% - 1000 Puffs",
     "description": "O pod mais querido do Brasil!Chilly Beats - Isso que é F*da!Assinado pela Dr. Deolane Bezerra <img src=https://static.xx.fbcdn.net/images/emoji.php/v9/t58/1/16/1f929.png alt=",
     "slug": "Chilly Beats - Banana Ice 5% - 1000 Puffs",
-    "quantity": 6,
+    "quantity": 4,
     "category": {
       "id": 17,
       "name": "Pods Descartáveis",
@@ -1858,7 +1858,7 @@
     "name": "Chilly Beats - Blueberry Ice 5% - 1000 Puffs",
     "description": "A Chilly Beats, em parceria com a Dra. Deolane Bezerra, lança seu mais novo produto: o Chilly Beats ISSO QUE É FODA!. Cada Pod possui um música de Mc Kevin, com a intenção de homenagear um dos maiores Mc's do Brasil! SABOR: BLUEBERRY ICE ",
     "slug": "Chilly Beats - Blueberry Ice 5% - 1000 Puffs",
-    "quantity": 10,
+    "quantity": 9,
     "category": {
       "id": 17,
       "name": "Pods Descartáveis",
